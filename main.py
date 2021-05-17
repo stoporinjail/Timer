@@ -8,5 +8,5 @@ for i in reversed(range(secs)):
   print(i,"seconds left!")
   time.sleep(1)
 print("Timer complete!")
-# will not work on offline IDE
+# will not work on an online IDE
 playsound.playsound('sound.mp3')
