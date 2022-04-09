@@ -5,7 +5,7 @@ secs = input("How many seconds?\n")
 secs = int(secs)
 secs += 1
 for i in reversed(range(secs)):
-  print(i,"seconds left!")
+  print(i,"seconds left!", end="\r")
   time.sleep(1)
 print("Timer complete!")
 # will not work on an online IDE
